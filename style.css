@@ -1,0 +1,62 @@
+* {
+    text-align: center;
+}
+body {
+    background-image: url(./images/codeBackground.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100vw 100vh; */
+    background-size: auto;
+}
+.cardContainer {
+    margin: 2rem 24rem;
+}
+@media screen and (max-width: 1200px) {
+    .cardContainer {
+        margin: 2rem 10rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .cardContainer {
+        margin: 2rem 4rem;
+    }
+}
+#lengthDisplay {
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.range-field {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 0;
+}
+.card, .card-content {
+    padding: .75rem!important;
+}
+.card-action-generate {
+    display: flex;
+    padding: .5rem!important;
+    justify-content: space-around;
+
+}
+
+a {
+    margin: 0!important;
+}
+.switch {
+    color: rgb(216, 216, 216);
+}
+.container {
+    border: 1px solid black;
+    padding: 1rem;
+}
+h2 {
+    margin-top: 0;
+}
+textarea {
+    border: grey dashed 1px;
+}
+#password {
+    color: rgb(255, 250, 116);
+    font-weight: 500;
+}
